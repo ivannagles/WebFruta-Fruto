@@ -1,0 +1,5 @@
+.menu__item {
+    list-style: none; /* elimino el subrayado */
+    text-transform: uppercase; /* pasar las minus a mayus */
+    margin: 3%; /* para asignar un tamaño a cada item-list */
+}

@@ -1,0 +1,4 @@
+.menu__lista {
+    display: flex; /* los elementos de la lista se alinean uno al lado del otro */
+    justify-content: flex-end; /* reparte equitativamente la lista de items */
+}
