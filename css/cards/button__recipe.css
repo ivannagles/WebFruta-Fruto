@@ -1,0 +1,14 @@
+.button__recipe {
+    background: #DA2B1F;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.2rem; /* en Y, en X*/
+    transition: all .1s ease-in-out;
+}
+
+.button__recipe:hover {
+    cursor: pointer;
+    background: #e0c844;
+    color:#DA2B1F;
+}

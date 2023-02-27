@@ -1,0 +1,8 @@
+.cards {
+    background: #fdfdfd;
+    display: flex; /* se alinea el texto al lado de las imagenes, todas con un mismo tamaño */
+    flex-direction: column; /* se alinean los textos debajo de las imagenes, todo queda con el mismo tamaño. */
+    margin:  2rem 1rem; /* en y, en x */
+    width: 30%; /* asigno un porcentaje para que quepan 3 cards por línea */
+    border-radius: 1rem; /* para las cards */
+}

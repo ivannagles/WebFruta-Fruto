@@ -1,0 +1,6 @@
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    background: #dab997;
+    padding: 5rem; /* padding en todos los lados de la seccion */
+}
