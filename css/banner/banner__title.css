@@ -1,0 +1,11 @@
+.banner__title {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    font-size: 5.0625rem; 
+    width: 100%; /* que el titulo tome el 100% del espacio si se necesita */ 
+    position: absolute; /* para que el texto se ubique dentro de la imagen */
+    top: 45%; /* centrado vertical en la imagen */
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75); /* sombra del texto */
+    text-align: center; /* centrar texto */
+    /*transform: translate(-50%, -50%); esto no se necesita*/
+}

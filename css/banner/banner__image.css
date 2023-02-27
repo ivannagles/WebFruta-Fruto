@@ -1,0 +1,4 @@
+.banner__image {
+    width: 100%; /* iamgen ocupe el ancho del 100% */
+    height: calc(100vh - 150px); /* imagen adquiere la diimension del viewport menos el espacio de la navbar. */
+}
