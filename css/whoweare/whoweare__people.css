@@ -1,0 +1,4 @@
+.whoweare__people {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+.person__img {
+    height: 200px; /* se define altura para que aparezca la imagen */
+    width: 200px; /* se define ancho para que aparezca la imagen */
+    background-position: center; /* centra la imagen */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 100%; /* asigna un borde tipo radio a toda la imagen */
+    margin: 20px; /* margenes para separarlo de otros elementos */
+}
+
+.person__img--Roberta {
+    background-image: url('../../../img/personas/roberta.jpg');
+}
+
+.person__img--Marcela {
+    background-image: url('../../../img/personas/marcela.jpg');
+
+}
+
+.person__img--Andreia {
+    background-image: url('../../../img/personas/andrea.jpg');
+
+}
