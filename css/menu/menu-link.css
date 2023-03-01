@@ -4,23 +4,30 @@
 }
 
 .menu__link.activo {
-    color: #333333; /* color por defecto del botón Inicio */
+    color: #808080; /* color por defecto del botón Inicio */
     font-weight: 700; /* negrita */
 }
 
 .menu__link:hover { /* efectos habilitados cuando se pase el mouse por encima */
     background: lightgreen; /* asigno color de fondo al botón */
     color: black; /* color a la fuente */
-    border: 2px solid #808080; /* defino caracteristicas del borde */
-    border-radius: 20px; /* curvatura del borde */
-    padding: 10px; /* tamaño de relleno de cada botón */
+    border: 1px solid #808080; /* defino caracteristicas del borde */
+    border-radius: 100%; /* curvatura del borde */
+    padding: 1.2rem; /* tamaño de relleno de cada botón */
     transform: scale(1.1); /* tamaño a crecer */
     transition: 0.5s all; /* velocidad de la transformación */
     cursor: pointer; /* aparezca manito */
 }
 
 .menu__link.activo:hover {
-    background-color: yellow; /* color de fondo al pasar el mouse por el botón */
+    background-color: rgb(255, 205, 4); /* color de fondo al pasar el mouse por el botón */
     color: #333333; /* color por defecto de la fuente del botón Inicio */
     font-weight: 700; /* negrita */
+    border-radius: 0;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 0;
+    border-right: 0;
+    transition: 0.3s all;
+    padding: 1rem 2rem;
 }
