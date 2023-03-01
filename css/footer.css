@@ -5,3 +5,15 @@ footer {
     align-items: center;
     padding: 5rem;
 }
+
+@media screen and (max-width:375px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:678px) {
+    footer {
+        flex-direction: column;
+    }
+}

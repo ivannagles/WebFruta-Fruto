@@ -1,4 +1,4 @@
-.button__recipe {
+.recipes__button {
     background: #DA2B1F;
     color: white;
     border: none;
@@ -7,7 +7,7 @@
     transition: all .1s ease-in-out;
 }
 
-.button__recipe:hover {
+.recipes__button:hover {
     cursor: pointer;
     background: #e0c844;
     color:#DA2B1F;

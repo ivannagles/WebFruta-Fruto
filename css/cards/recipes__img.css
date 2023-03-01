@@ -1,26 +1,24 @@
-.recipes {
-    display: flex;
+.recipes__img {
+    border-radius: 15px 15px 0 0;
     flex-wrap: wrap;
-    background: #dab997;
-    padding: 5rem; /* padding en todos los lados de la seccion */
 }
 
 @media screen and (max-width:375px) {
-    .recipes__cards {
+    .recipes__img{
         width: 100%;
-        
+
     }
 }
 
 @media screen and (max-width:768px) {
-    .recipes__cards {
+    .recipes__img{
         width: 100%;
 
     }
 }
 
 @media screen and (max-width:992px) {
-    .recipes__cards {
+    .recipes__img{
         width: 100%;
 
     }

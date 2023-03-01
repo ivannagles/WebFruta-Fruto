@@ -1,4 +1,22 @@
 .banner__image {
-    width: 100%; /* iamgen ocupe el ancho del 100% */
-    height: calc(100vh - 150px); /* imagen adquiere la diimension del viewport menos el espacio de la navbar. */
+    background: url('../../img/banner.png');
+    width: 100%; /* imagen ocupe el ancho del 100% */
+    height: calc(100vh - 150px); /* imagen adquiere la dimension del viewport menos el espacio de la navbar. */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@media screen and (max-width:375px) {
+    .banner__image {
+        height: calc(100vh - 50px);
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner__image {
+        height: calc(100vh - 500px);
+     }
 }

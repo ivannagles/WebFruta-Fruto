@@ -1,5 +1,18 @@
-.sobre__description {
+.subhead__description {
     font-family: 'Roboto';
-    color: #8C8888  ;
-    font-size: 20px;
+    color: #8C8888;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width:375px) {
+    .subhead__description {
+        font-size: 0.1rem;
+    }   
+}
+
+@media screen and (max-width:768px) {
+    .subhead__description {
+        font-size: 1.5rem;
+    }   
 }

@@ -1,6 +1,17 @@
-.sobre__title {
+.subhead__title {
     font-family: Pacifico, cursive;
     color: #DA2B1F;
-    font-size: 48px;
+    font-size: 4rem;
 }
 
+@media screen and (max-width:375px) {
+    .subhead__title {
+        font-size: 2rem;
+    }   
+}
+
+@media screen and (max-width:768px) {
+    .subhead__title {
+        font-size: 3rem;
+    }   
+}

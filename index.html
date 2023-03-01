@@ -19,16 +19,18 @@
     <link href="css/subhead/subhead.css" rel="stylesheet" />
     <link href="css/subhead/subhead__title.css" rel="stylesheet" />
     <link href="css/subhead/subhead__description.css" rel="stylesheet" />
-    <link href="css/cards/cards.css" rel="stylesheet" />
-    <link href="css/cards/content__recipe.css" rel="stylesheet" />
-    <link href="css/cards/description__recipe.css" rel="stylesheet" />
-    <link href="css/cards/button__recipe.css" rel="stylesheet" />
-    <link href="css/cards/title__recipe.css" rel="stylesheet" />
+    <link href="css/cards/recipes__img.css" rel="stylesheet" />
+    <link href="css/cards/recipes__cards.css" rel="stylesheet" />
+    <link href="css/cards/recipes__content.css" rel="stylesheet" />
+    <link href="css/cards/recipes__description.css" rel="stylesheet" />
+    <link href="css/cards/recipes__button.css" rel="stylesheet" />
+    <link href="css/cards/recipes__title.css" rel="stylesheet" />
     <link href="css/cards/recipes.css" rel="stylesheet" />
     <link href="css/whoweare/whoweare.css" rel="stylesheet" />
     <link href="css/whoweare/whoweare__title.css" rel="stylesheet" />
     <link href="css/whoweare/whoweare__description.css" rel="stylesheet" />
     <link href="css/whoweare/whoweare__people.css" rel="stylesheet" />
+    <link href="css/whoweare/people/person.css" rel="stylesheet" />
     <link href="css/whoweare/people/person__img.css" rel="stylesheet" />
     <link href="css/whoweare/people/person__name.css" rel="stylesheet" />
     <link href="css/whoweare/people/person__function.css" rel="stylesheet" />
@@ -38,107 +40,101 @@
     <link href="css/footer/footer__item.css" rel="stylesheet" />
     <link href="css/footer/footer__icon.css" rel="stylesheet" />
     <link href="css/footer/footer__description.css" rel="stylesheet" />
-
-
-
-
-
 </head>
-    <body>
-        <header class="cabecera">
-            <img  class="logo" src="img/logo.jpg" alt="Logo">
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link activo" href="#">Inicio</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Recetas</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Quienes Somos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="banner">
-            <img class="banner__image" src="/Arquitectura CSS/img/banner.png" alt="Banner">
-            <h2 class="banner__title">Reaproveche mejor los alimentos</h2>
-        </section>
-        <section class="sobre">
-            <h2 class="sobre__title">Recetas para economizar y ganar salud</h2>
-            <p class="sobre__description">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad</p>
-        </section>
-        <section class="recipes">
-            <div class="cards"><img src="img/recetas/ensalada-de-frutas.jpg" alt="avocado_bowl" class="img__recipe">
-                <div class="content__recipe">
-                    <h4 class="title__recipe">Bowl de Aguacate</h4>
-                    <p class="description__recipe">Receta refrescante y llena de vitaminas para su desayuno</p>
-                    <button class="button__recipe">Ver receta</button>
-                </div>
-            </div>
-            <div class="cards"><img src="img/recetas/ensalada-de-kiwi.jpg" alt="avocado_bowl" class="img__recipe">
-                <div class="content__recipe">
-                    <h4 class="title__recipe">Ensalada de Kiwi</h4>
-                    <p class="description__recipe">Receta refrescante y llena de vitaminas para su desayuno</p>
-                <button class="button__recipe">Ver receta</button>
-                </div>
-            </div>
-            <div class="cards"><img src="img/recetas/mix-de-vegetales.jpg" alt="avocado_bowl" class="img__recipe">
-                <div class="content__recipe">
-                    <h4 class="title__recipe">Mix de Vegetales</h4>
-                    <p class="description__recipe">Receta refrescante y llena de vitaminas para su desayuno</p>
-                    <button class="button__recipe">Ver receta</button>
-                </div>
-            </div>
-            <div class="cards"><img src="img/recetas/pimentones-juliana.jpg" alt="avocado_bowl" class="img__recipe">
-                <div class="content__recipe">
-                    <h4 class="title__recipe">Pimentones a la Juliana</h4>
-                    <p class="description__recipe">Receta refrescante y llena de vitaminas para su desayuno</p>
-                    <button class="button__recipe">Ver receta</button>
-                </div>
-            </div>
-            </div>
-            <div class="cards"><img src="img/recetas/plato-oriental.jpg" alt="avocado_bowl" class="img__recipe">
-                <div class="content__recipe">
-                    <h4 class="title__recipe">Plato Oriental</h4>
-                    <p class="description__recipe">Receta refrescante y llena de vitaminas para su desayuno</p>
-                    <button class="button__recipe">Ver receta</button>
-                </div>
-            </div>
-            <div class="cards"><img src="img/recetas/beterrabas-asadas.jpg" alt="avocado_bowl" class="img__recipe">
-                <div class="content__recipe">
-                    <h4 class="title__recipe">Remolachas horneadas</h4>
-                    <p class="description__recipe">Receta refrescante y llena de vitaminas para su desayuno</p>
-                    <button class="button__recipe">Ver receta</button>
-                </div>
-            </div>
-        </section>
-        <section class="whoweare">
-            <h3 class="whoweare__title">Quienes Somos</h3>
-            <p class="whoweare__description">Conozca a la comunidad detrás de la iniciativa</p>
-            <div class="whoweare__people">
-                <div class="person">
-                    <div class="person__img person__img--Roberta"></div>
-                    <span class="person__name">Roberta</span>
-                    <span class="person__function">Contenido</span>
-                </div>
-                <div class="person">
-                    <div class="person__img person__img--Marcela"></div>
-                    <span class="person__name">Marcela</span>
-                    <span class="person__function">Chef de Cocina</span>
-                </div>
-                <div class="person">
-                    <div class="person__img person__img--Andreia"></div>
-                    <span class="person__name">Andreia</span>
-                    <span class="person__function">Pequeña Productora</span>
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-            <h3 class="footer__title">Fruta & Fruto 2023</h3>
-            <p class="footer__description">Contacto</p>
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#" class="footer__icon"><img alt="WhatsApp" src="./img/WhatsApp.png"></a></li>
-                <li class="footer__item"><a href="#" class="footer__icon"><img alt="Email" src="./img/email.png"></a></li>
-                <li class="footer__item"><a href="#" class="footer__icon"><img alt="Instagram" src="./img/Instagram.png"></a></li>
+<body>
+    <header class="cabecera">
+        <img  class="logo" src="./img/logo.jpg" alt="Logo">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link activo" href="#">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Recetas</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Quienes Somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contacto</a></li>
             </ul>
-        </footer>
-
-    </body>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner__image"></div>
+        <h2 class="banner__title">Reaproveche mejor los alimentos</h2>
+    </section>
+    <section class="subhead">
+        <h2 class="subhead__title">Recetas para economizar y ganar salud</h2>
+        <p class="subhead__description">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad</p>
+    </section>
+    <section class="recipes">
+        <div class="recipes__cards"><img src="./img/recetas/ensalada-de-frutas.jpg" alt="avocado_bowl" class="recipes__img">
+            <div class="recipes__content">
+                <h4 class="recipes__title">Bowl de Aguacate</h4>
+                <p class="recipes__description">Receta refrescante y llena de vitaminas para su desayuno</p>
+                <button class="recipes__button">Ver receta</button>
+            </div>
+        </div>
+        <div class="recipes__cards"><img src="./img/recetas/ensalada-de-kiwi.jpg" alt="Ensalada de Kiwi" class="recipes__img">
+            <div class="recipes__content">
+                <h4 class="recipes__title">Ensalada de Kiwi</h4>
+                <p class="recipes__description">Receta refrescante y llena de vitaminas para su desayuno</p>
+                <button class="recipes__button">Ver receta</button>
+            </div>
+        </div>
+        <div class="recipes__cards"><img src="./img/recetas/mix-de-vegetales.jpg" alt="Mix de Vegetales" class="recipes__img">
+            <div class="recipes__content">
+                <h4 class="recipes__title">Mix de Vegetales</h4>
+                <p class="recipes__description">Receta refrescante y llena de vitaminas para su desayuno</p>
+                <button class="recipes__button">Ver receta</button>
+            </div>
+        </div>
+        <div class="recipes__cards"><img src="./img/recetas/pimentones-juliana.jpg" alt="Pimentones a la Juliana" class="recipes__img">
+            <div class="recipes__content">
+                <h4 class="recipes__title">Pimentones a la Juliana</h4>
+                <p class="recipes__description">Receta refrescante y llena de vitaminas para su desayuno</p>
+                <button class="recipes__button">Ver receta</button>
+            </div>
+        </div>
+        </div>
+        <div class="recipes__cards"><img src="./img/recetas/plato-oriental.jpg" alt="Plato Oriental" class="recipes__img">
+            <div class="recipes__content">
+                <h4 class="recipes__title">Plato Oriental</h4>
+                <p class="recipes__description">Receta refrescante y llena de vitaminas para su desayuno</p>
+                <button class="recipes__button">Ver receta</button>
+            </div>
+        </div>
+        <div class="recipes__cards"><img src="./img/recetas/beterrabas-asadas.jpg" alt="Beterrabas Asadas" class="recipes__img">
+            <div class="recipes__content">
+                <h4 class="recipes__title">Remolachas horneadas</h4>
+                <p class="recipes__description">Receta refrescante y llena de vitaminas para su desayuno</p>
+                <button class="recipes__button">Ver receta</button>
+            </div>
+        </div>
+    </section>
+    <section class="whoweare">
+        <h3 class="whoweare__title">Quienes Somos</h3>
+        <p class="whoweare__description">Conozca a la comunidad detrás de la iniciativa</p>
+        <div class="whoweare__people">
+            <div class="person">
+                <div class="person__img person__img--Roberta"></div>
+                <div class="person__name">Roberta</div>
+                <div class="person__function">Contenido</div>
+            </div>
+            <div class="person">
+                <div class="person__img person__img--Marcela"></div>
+                <div class="person__name">Marcela</div>
+                <div class="person__function">Chef de Cocina</div>
+            </div>
+            <div class="person">
+                <div class="person__img person__img--Andreia"></div>
+                <div class="person__name">Andreia</div>
+                <div class="person__function">Pequeña Productora</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h3 class="footer__title">Fruta & Fruto 2023</h3>
+        <p class="footer__description">Contacto</p>
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__icon"><img alt="WhatsApp" src="./img/WhatsApp.png"></a></li>
+            <li class="footer__item"><a href="#" class="footer__icon"><img alt="Email" src="./img/email.png"></a></li>
+            <li class="footer__item"><a href="#" class="footer__icon"><img alt="Instagram" src="./img/Instagram.png"></a></li>
+        </ul>
+    </footer>
+</body>
 </html>

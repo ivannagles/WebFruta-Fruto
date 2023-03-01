@@ -1,4 +1,22 @@
 .whoweare__people {
     display: flex;
     justify-content: space-around;
+    
+}
+
+@media screen and (max-width:375px) {
+    .whoweare__people {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .whoweare__people {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
 }

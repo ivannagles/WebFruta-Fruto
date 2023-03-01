@@ -5,3 +5,33 @@
     padding: 0 2rem; /* separo items de los bordes laterales izq y der */
 
 }
+
+@media screen and (max-width:375px) {
+    .cabecera {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .menu__lista {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .cabecera {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+}

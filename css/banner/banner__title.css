@@ -9,3 +9,18 @@
     text-align: center; /* centrar texto */
     /*transform: translate(-50%, -50%); esto no se necesita*/
 }
+
+@media screen and (max-width:375px) {
+    .banner__title {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .banner__title {
+        font-size: 3rem;
+    }
+
+}
